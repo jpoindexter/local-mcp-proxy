@@ -4,6 +4,29 @@
   "private": true,
   "type": "module",
   "description": "Local-only MCP proxy for sharing Mobbin and Refero across local AI clients.",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "mcp-proxy",
+    "mcp-server",
+    "streamable-http",
+    "mobbin",
+    "refero",
+    "claude-code",
+    "codex",
+    "ai-tools",
+    "local-first",
+    "typescript",
+    "nodejs"
+  ],
+  "homepage": "https://github.com/jpoindexter/local-mcp-proxy#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpoindexter/local-mcp-proxy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jpoindexter/local-mcp-proxy/issues"
+  },
   "bin": {
     "local-mcp-proxy": "./dist/src/index.js"
   },
