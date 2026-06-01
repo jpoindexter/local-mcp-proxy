@@ -1,0 +1,20 @@
+{
+  "host": "127.0.0.1",
+  "port": 8787,
+  "cacheDir": ".mcp-proxy-cache",
+  "debug": false,
+  "ttl": {
+    "searchSeconds": 21600,
+    "detailSeconds": 86400
+  },
+  "mobbin": {
+    "upstreamUrl": "https://api.mobbin.com/mcp",
+    "mode": "mcp-remote",
+    "tokenEnvVar": "MOBBIN_MCP_TOKEN"
+  },
+  "refero": {
+    "upstreamUrl": "https://api.refero.design/mcp",
+    "mode": "streamable-http",
+    "tokenEnvVar": "REFERO_MCP_TOKEN"
+  }
+}

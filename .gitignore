@@ -1,0 +1,30 @@
+# Dependencies and build output
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+
+# Local config and secrets
+.env
+.env.*
+!.env.example
+mcp-proxy.config.json
+mcp-proxy.config.local.json
+.npmrc
+*.pem
+*.key
+*.cert
+*.p12
+
+# Runtime state, cache, and logs
+.mcp-proxy-cache/
+.mcp-proxy.pid
+.mcp-proxy*.log
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS/editor noise
+.DS_Store

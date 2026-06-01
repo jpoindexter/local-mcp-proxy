@@ -1,0 +1,32 @@
+{
+  "name": "local-mcp-proxy",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Local-only MCP proxy for sharing Mobbin and Refero across local AI clients.",
+  "bin": {
+    "local-mcp-proxy": "./dist/src/index.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsx src/index.ts",
+    "start": "node dist/src/index.js",
+    "test": "vitest run test",
+    "typecheck": "tsc -p tsconfig.test.json --noEmit"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.29.0",
+    "express": "^5.1.0",
+    "mcp-remote": "0.1.38"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.5",
+    "@types/node": "^24.10.1",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.14"
+  },
+  "engines": {
+    "node": ">=20.10"
+  }
+}
